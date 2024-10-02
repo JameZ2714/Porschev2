@@ -1,0 +1,160 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.spec {
+    color: #0F0529;
+}
+
+.engine {
+    color: #4A2574;
+}
+
+.max {
+    color: #7338A0;
+}
+
+.middle {
+    text-align: center;
+}
+
+.body-cont {
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 20px;
+    position: relative;
+}
+
+.body-cont2 {
+    background-color: #e3ccf6;
+    width: fit-content;
+    padding: 30px;
+}
+
+.main-body-cont {
+    float: left;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.side-bar {
+    float: right;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.time {
+    text-align: right;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    float: right;
+    size: 20px;
+}
+
+.gallery {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 625px;
+    width: 600px;
+    padding: 5px;
+}
+
+.cover-cont {
+    position: relative;
+    left: 550px;
+    top: 50px;
+    border-radius: 20px;
+    width: 60px;
+    outline: black;
+}
+
+.cover-background {
+    border-radius: 10px;
+    width: 400px;
+    height: 650px;
+    outline: solid;
+    outline-offset: 0px;
+    outline-width: 10px;
+    outline-color: black;
+}
+
+.emblem {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+  
+.zoom:hover {
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+#one {
+    left: 250px;
+}
+
+#two {
+    position: relative;
+    left: 60%;
+    top: -600px;
+}
+
+.info-img {
+    width: 400px;
+    position: absolute;
+    padding: 20px;
+    right: 20px;
+    top: 40px;
+}
+
+.fa {
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.fa:hover {
+    color: darkblue;
+}
+
+.home-icon {
+    width: 20px;
+    padding: 0px;
+}
+
+button {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
